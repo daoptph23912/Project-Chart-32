@@ -20,8 +20,8 @@ import { ReactComponent as IconCong } from "../assets/icons/iconCong.svg";
 import { ReactComponent as IconBaCham } from "../assets/icons/iconBaCham.svg";
 import { ReactComponent as IconLich } from "../assets/icons/iconLich.svg";
 import { ReactComponent as IconSocial } from "../assets/icons/iconSocial.svg";
-import { ReactComponent as ImageTong } from "../assets/icons/imageTongGG.svg";
-import { ReactComponent as ChartCuoi } from "../assets/icons/imageChartcuoi.svg";
+import { ReactComponent as ImageGGB } from "../assets/icons/imageTongGG.svg";
+import { ReactComponent as ImagePie } from "../assets/icons/imageChartcuoi.svg";
 
 export {
   BgrMsg,
@@ -46,6 +46,6 @@ export {
   IconBaCham,
   IconLich,
   IconSocial,
-  ImageTong,
-  ChartCuoi
+  ImageGGB,
+  ImagePie,
 };

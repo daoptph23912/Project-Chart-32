@@ -22,7 +22,8 @@ export const Sidebar = () => {
         </div>
         <BgrMsg className="icon-msg" />
       </div>
-      <div className="divider-vertical"></div>
+
+      <p className="divider-vertical"></p>
     </>
   );
 };

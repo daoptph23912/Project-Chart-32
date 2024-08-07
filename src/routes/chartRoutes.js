@@ -7,7 +7,8 @@ import { MainLayout } from "../layouts/mainLayout";
 const ChatRoutes = () => {
   return (
     <Routes>
-      <Route path="/" element={<Login />} />
+      <Route path="/" element={<DashBoard />} />
+      <Route path="/login" element={<Login />} />
       <Route element={<MainLayout />}>
         <Route path="/dashboard" element={<DashBoard />} />
       </Route>

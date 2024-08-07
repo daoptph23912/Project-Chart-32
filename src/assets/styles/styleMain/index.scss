@@ -34,14 +34,14 @@
   position: absolute;
   align-items: center;
   margin-top: 15.5vh;
-  margin-left: 30%;
+  right: 23%;
 }
 .right-main {
   flex: 1;
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f7;
-  height: 89vh;
+  // background-color: #f2f2f7;
+  height: 100vh;
   align-items: center;
 }
 .text-total-visit {
@@ -53,7 +53,7 @@
 .text-main-left-total {
   display: flex;
   flex-direction: row;
-  gap: 20px;  
+  gap: 20px;
   align-items: center;
 }
 .image-lon {
@@ -69,4 +69,8 @@
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
+}
+.text-active-per {
+  display: flex;
+  gap: 31.5%;
 }

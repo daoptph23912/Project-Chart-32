@@ -1,0 +1,12 @@
+.text-total-visit {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-left: 50px;
+}
+.text-main-left-total {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}

@@ -32,7 +32,6 @@ export const PieChart = () => {
           }}
         />
       </div>
-
       <div className="dataCard customerCard">
         <Bar
           data={{
@@ -42,9 +41,9 @@ export const PieChart = () => {
                 label: "Count",
                 data: sourceData.map((data) => data.value),
                 backgroundColor: [
-                  "rgba(43, 63, 229, 0.8)",
-                  "rgba(250, 192, 19, 0.8)",
-                  "rgba(253, 135, 135, 0.8)",
+                  "rgba(116, 89, 217, 0.5)",
+                  "rgba(116, 89, 217, 1)",
+                  "rgba(116, 89, 217, 0.2)",
                 ],
                 borderRadius: 5,
               },
