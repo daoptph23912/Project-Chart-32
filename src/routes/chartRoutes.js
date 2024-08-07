@@ -3,12 +3,15 @@ import { Routes, Route } from "react-router-dom";
 import NotFound from "../pages/page404/notFound";
 import { DashBoard } from "../pages/dashboard/dashboard";
 import { Login } from "../pages/login/login";
+import { MainLayout } from "../layouts/mainLayout";
 const ChatRoutes = () => {
   return (
     <Routes>
-      <Route path="/chart" element={<DashBoard />} />
       <Route path="/" element={<Login />} />
-      <Route path="*" element={<NotFound/>}/>
+      <Route element={<MainLayout />}>
+        <Route path="/dashboard" element={<DashBoard />} />
+      </Route>
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };

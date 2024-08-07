@@ -1,0 +1,23 @@
+.main-layout {
+  display: flex;
+}
+
+.sidebar {
+  max-width: 80px;
+  height: 100%;
+
+}
+.wrap-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.header {
+  height: 80px;
+  max-width: 100%;
+}
+
+.main {
+  flex-grow: 1;
+}

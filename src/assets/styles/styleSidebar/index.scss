@@ -1,0 +1,28 @@
+.sidebar-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 35px;
+  min-width: 80px;
+  align-items: center;
+}
+.icon-bitcoin {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+.icon-image {
+  margin-top: 50px;
+  flex-direction: column;
+  display: flex;
+}
+.icon-msg {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+}
+.divider-vertical {
+  width: 2px;
+  height: 95vh;
+  background-color: #F2F2F7;
+}
