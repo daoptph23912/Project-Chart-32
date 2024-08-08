@@ -8,26 +8,6 @@ defaults.maintainAspectRatio = false;
 defaults.responsive = true;
 const doughnutData = sourceData.slice(0, 3);
 const totalValue = doughnutData.reduce((sum, data) => sum + data.value, 0);
-
-const totalLabelPlugin = {
-  id: "totalLabel",
-  beforeDraw: (chart) => {
-    const {
-      ctx,
-      chartArea: { top, right, bottom, left, width, height },
-    } = chart;
-    const centerX = (right - left) / 2 + left;
-    const centerY = (bottom - top) / 2 + top;
-
-    ctx.save();
-    ctx.font = "bold 24px Arial";
-    ctx.textAlign = "center";
-    ctx.textBaseline = "middle";
-    ctx.fillStyle = "#000";
-    ctx.fillText(totalValue.toLocaleString(), centerX, centerY);
-    ctx.restore();
-  },
-};
 export const PieChart = () => {
   return (
     <div className="pieCard">
@@ -70,7 +50,6 @@ export const PieChart = () => {
             legend: {
               display: false,
             },
-            totalLabel: totalLabelPlugin,
           },
         }}
       />
