@@ -7,8 +7,8 @@ import {
   IconText,
   ImageGGB,
   WubinDesign,
-} from "../../assets/indexIcons";
-import "../../assets/styles/styleMain/index.scss";
+} from "../../assets/icons/indexIcons";
+import "./index.scss";
 import image1 from "../../assets/images/logoImage.png";
 import { LineChart } from "../../components/common/chart/lineChart/lineChart";
 import { TextCham } from "../../components/common/text/textCham";

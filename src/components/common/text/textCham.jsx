@@ -1,5 +1,5 @@
 import React from "react";
-import { ChamThan } from "../../../assets/indexIcons";
+import { ChamThan } from "../../../assets/icons/indexIcons";
 import "./index.css";
 export const TextCham = ({ text }) => {
   return (

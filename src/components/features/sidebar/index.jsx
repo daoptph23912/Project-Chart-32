@@ -5,8 +5,8 @@ import {
   IconBitcoin3,
   Image1,
   Menu,
-} from "../../../assets/indexIcons";
-import "../../../assets/styles/styleSidebar/index.scss";
+} from "../../../assets/icons/indexIcons";
+import "./index.scss";
 export const Sidebar = () => {
   return (
     <>

@@ -1,12 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   IconDrd,
   IconSearch,
   LogoAcc,
   ModeLight,
   ModeDark,
-} from "../../../assets/indexIcons";
-import "../../../assets/styles/styleHeader/index.scss";
+} from "../../../assets/icons/indexIcons";
+import "./index.scss";
 
 export const Header = ({ toggleTheme, theme }) => {
   return (

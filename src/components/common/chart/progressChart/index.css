@@ -19,9 +19,7 @@
 .customProgress .ant-progress-bg {
   border-radius: 5px;
 }
-.customProgress {
-  height: 200px;
-}
+
 .detailData {
   display: flex;
   margin-top: 1rem;

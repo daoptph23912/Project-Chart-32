@@ -45,6 +45,9 @@ export const LineChart = () => {
                 },
               },
             },
+            legend: {
+              display: false, 
+            },
           },
           scales: {
             y: {
