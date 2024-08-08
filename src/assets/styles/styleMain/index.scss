@@ -73,5 +73,10 @@
 }
 .text-active-per {
   display: flex;
-  gap: 31.5%;
+  gap: 34%;
+}
+.container-chart{
+  display: flex;
+  flex-direction: row;
+  margin-left: 4vh;
 }

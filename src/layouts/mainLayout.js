@@ -16,6 +16,7 @@ export const MainLayout = () => {
       <Sidebar className="sidebar" />
       <div className="wrap-container">
         <Header toggleTheme={toggleTheme} theme={theme} className="header" />
+
         <div className="main">
           <Outlet />
         </div>

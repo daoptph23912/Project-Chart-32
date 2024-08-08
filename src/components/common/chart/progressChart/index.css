@@ -1,0 +1,46 @@
+.progressContainer {
+  width: 50%;
+  margin-left: 31%;
+}
+
+.totalCount {
+  font-weight: bold;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.progressBar {
+  margin-top: 15px;
+  height: 2.5rem;
+}
+
+.customProgress .ant-progress-bg {
+  border-radius: 5px;
+}
+.customProgress {
+  height: 200px;
+}
+.detailData {
+  display: flex;
+  margin-top: 1rem;
+  gap: 80px;
+}
+
+.dataItem {
+  font-size: 1rem;
+}
+.text-status {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+.colorIndicator {
+  width: 40px;
+  height: 5px;
+  border-radius: 20%;
+  margin-right: 10px;
+}

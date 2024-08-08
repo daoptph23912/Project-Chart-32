@@ -1,14 +1,7 @@
 [
-  {
-    "label": "Ads",
-    "value": 32
-  },
-  {
-    "label": "Subscriptions",
-    "value": 45
-  },
-  {
-    "label": "Sponsorships",
-    "value": 23
-  }
+  { "label": "Google.com .Inc", "value": 3124213 },
+  { "label": "Recommended flow", "value": 1523151 },
+  { "label": "Other", "value": 948213 },
+  { "label": "Online", "value": 179 },
+  { "label": "Offline", "value": 394 }
 ]

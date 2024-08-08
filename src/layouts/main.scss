@@ -1,7 +1,8 @@
-@import "./theme.scss";
+@import "../assets/styles/styleTheme/theme.scss";
 
 .main-layout {
   display: flex;
+  overflow: hidden;
 }
 .sidebar {
   max-width: 80px;
