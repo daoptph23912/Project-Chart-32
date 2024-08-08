@@ -1,12 +1,13 @@
 .main-container {
   display: flex;
   flex-direction: row;
+  height: 100%;
+  overflow: hidden;
 }
 .left-main {
   width: 80%;
   display: flex;
   flex-direction: column;
-  height: 100%;
 }
 .text-main-left {
   display: flex;
@@ -41,7 +42,7 @@
   display: flex;
   flex-direction: column;
   // background-color: #f2f2f7;
-  height: 100vh;
+  height: 90vh;
   align-items: center;
 }
 .text-total-visit {

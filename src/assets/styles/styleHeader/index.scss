@@ -3,7 +3,8 @@
   flex-direction: row;
   align-items: center;
   gap: 60px;
-  min-height: 80px;
+  min-height: 40px;
+  overflow: hidden;
   .header-text {
     display: flex;
     flex-direction: row;

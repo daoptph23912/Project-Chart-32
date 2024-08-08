@@ -4,6 +4,7 @@
   margin-top: 35px;
   min-width: 80px;
   align-items: center;
+  overflow: hidden;
 }
 .icon-bitcoin {
   display: flex;
@@ -19,7 +20,7 @@
 .icon-msg {
   display: flex;
   position: absolute;
-  bottom: 20px;
+  bottom: 50px;
 }
 .divider-vertical {
   width: 2px;

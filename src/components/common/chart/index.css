@@ -20,19 +20,19 @@
 
 .revenueCard {
   width: 92%;
-  height: 16rem;
+  height: 15rem;
   margin-left: 4vh;
 }
 
 .customerCard {
   width: 50%;
-  height: 16rem;
+  height: 15rem;
   margin-left: 2%;
 }
 
 .categoryCard {
   width: 40%;
-  height: 16rem;
+  height: 15rem;
 }
 .pieChart-lineChart {
   display: flex;
