@@ -31,7 +31,7 @@ export const DashBoard = () => {
             DASHBOARD
           </p>
           <IconText />
-          <p onClick={handleToggleElements} className="clickable-icon">
+          <p className="click-bitforex">
             BITFOREX.COM
           </p>
         </div>

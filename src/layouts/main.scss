@@ -2,7 +2,13 @@
   .sidebar-container {
     display: none !important;
   }
-  
+}
+@media (max-width: 650px) {
+  .container-chart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
 @import "../assets/styles/theme.scss";
 .main-layout {
@@ -27,5 +33,5 @@
 .main {
   flex-grow: 1;
   // height: 100%;
-  margin-top: 30px;
+  // margin-top: 30px;
 }

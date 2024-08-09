@@ -7,7 +7,15 @@ import DoughnutChart from "./pieChartFooter";
 export const Footer = () => {
   return (
     <div className="right-main">
-      <TextCham text="Superiority" />
+      <div
+        style={{
+          display: "flex",
+          position: "absolute",
+          paddingBottom: "200px",
+        }}
+      >
+        <TextCham text="Superiority" />
+      </div>
       <img className="image-lon" src={image1} alt="" />
       <div className="text-icon-social">
         <IconSocial />

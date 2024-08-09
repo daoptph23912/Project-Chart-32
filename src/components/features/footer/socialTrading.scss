@@ -5,6 +5,7 @@
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
   margin-bottom: 40px;
+  font-family: "Poppins", sans-serif;
 }
 
 .social-trading-item {
@@ -37,11 +38,19 @@
 
 .item-category {
   font-size: 14px;
+  color: #d0d1d2;
+  line-height: 22px;
+  font-weight: 400;
+
+  
 }
 
 .item-name {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: bold;
+  color: #11263c;
+  line-height: 22px;
+  font-weight: 600;
 }
 
 .social-trading-item:last-child {

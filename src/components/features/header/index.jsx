@@ -4,6 +4,7 @@ import {
   LogoAcc,
   ModeLight,
   ModeDark,
+  IconSearch,
 } from "../../../assets/icons/indexIcons";
 import "./index.scss";
 import Search from "antd/es/transfer/search";
@@ -19,12 +20,12 @@ export const Header = ({ toggleTheme, theme }) => {
         </div>
 
         <div className="header-search">
-          {/* <IconSearch /> */}
-          <Search className="icon-search" placeholder="Search..." />
+          <IconSearch />
+          {/* <Search className="icon-search" placeholder="Search..." /> */}
         </div>
 
         <div className="header-account">
-          <p className="text-size">Bessie Cooper</p>
+          <p className="text-size-bessie">Bessie Cooper</p>
           <LogoAcc />
           <IconDrd />
           {theme === "light" ? (

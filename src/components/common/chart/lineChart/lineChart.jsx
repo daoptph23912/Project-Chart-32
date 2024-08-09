@@ -53,7 +53,7 @@ export const LineChart = () => {
             padding: {
               left: 50, 
               right: 0, 
-              top:10
+              top:20
             },
           },
           scales: {
