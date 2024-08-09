@@ -1,0 +1,36 @@
+.container-pie-Chart-footer {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  padding: 5px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 10px;
+}
+.pie-Chart {
+  width: 70px;
+  height: 70px;
+  position: relative;
+}
+.chart-percentage {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 13px;
+  font-weight: bold;
+}
+.text-chart-footer {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.text-chart {
+  margin: 0;
+  color: rgba(116, 89, 217, 0.8);
+  font-size: 11px;
+}
+.text-legend {
+  font-size: 13px;
+}

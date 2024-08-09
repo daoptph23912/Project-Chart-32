@@ -5,6 +5,22 @@
   min-width: 80px;
   align-items: center;
   overflow: hidden;
+  .menu-icon,
+  .icon-bitcoin,
+  .icon-image,
+  .icon-msg {
+    cursor: pointer;
+    &:hover {
+      fill: #fc0303;
+    }
+  }
+}
+.menu-icon {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+.menu-icon:hover {
+  transform: scale(1.3);
 }
 .icon-bitcoin {
   display: flex;
@@ -25,5 +41,5 @@
 .divider-vertical {
   width: 2px;
   height: 95vh;
-  background-color: #F2F2F7;
+  background-color: #f2f2f7;
 }

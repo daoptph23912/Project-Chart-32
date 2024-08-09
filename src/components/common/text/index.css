@@ -10,3 +10,9 @@
   gap: 20px;
   align-items: center;
 }
+.tooltip-icon {
+  cursor: pointer; 
+  &:hover {
+    fill: #5b6e83;
+  }
+}

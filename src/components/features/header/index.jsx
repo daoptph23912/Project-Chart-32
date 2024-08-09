@@ -1,12 +1,12 @@
 import React from "react";
 import {
   IconDrd,
-  IconSearch,
   LogoAcc,
   ModeLight,
   ModeDark,
 } from "../../../assets/icons/indexIcons";
 import "./index.scss";
+import Search from "antd/es/transfer/search";
 
 export const Header = ({ toggleTheme, theme }) => {
   return (
@@ -18,7 +18,10 @@ export const Header = ({ toggleTheme, theme }) => {
           <p>Events</p>
         </div>
 
-        <IconSearch />
+        <div className="header-search">
+          {/* <IconSearch /> */}
+          <Search className="icon-search" placeholder="Search..." />
+        </div>
 
         <div className="header-account">
           <p className="text-size">Bessie Cooper</p>

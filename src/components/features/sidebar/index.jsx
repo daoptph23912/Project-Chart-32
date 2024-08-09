@@ -1,26 +1,35 @@
+import React, { useState } from "react";
 import {
-  BgrMsg,
   IconBitcoin,
   IconBitcoin2,
   IconBitcoin3,
-  Image1,
-  Menu,
 } from "../../../assets/icons/indexIcons";
+import { MenuOutlined } from "@ant-design/icons";
 import "./index.scss";
+import IconMenu from "./menuIcon";
+
 export const Sidebar = () => {
+  const [collapsed, setCollapsed] = useState(false);
+
+  const toggleSidebar = () => {
+    setCollapsed(!collapsed);
+  };
+
   return (
     <>
-      <div className="sidebar-container">
-        <Menu />
-        <div className="icon-bitcoin">
-          <IconBitcoin />
-          <IconBitcoin2 />
-          <IconBitcoin3 />
-        </div>
-        <div className="icon-image">
-          <Image1 />
-        </div>
-        <BgrMsg className="icon-msg" />
+      <div className={`sidebar-container ${collapsed ? "collapsed" : ""}`}>
+        <MenuOutlined className="menu-icon" onClick={toggleSidebar} />
+        {!collapsed && (
+          <>
+            <div className="icon-bitcoin">
+              <IconBitcoin />
+              <IconBitcoin2 />
+              <IconBitcoin3 />
+            </div>
+
+            <IconMenu />
+          </>
+        )}
       </div>
 
       <p className="divider-vertical"></p>

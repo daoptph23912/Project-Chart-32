@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.css"; // Import CSS nếu cần
+import "./index.scss"; // Import CSS nếu cần
 
 const getRgbaColor = (opacity) => `rgba(116, 89, 217, ${opacity})`;
 

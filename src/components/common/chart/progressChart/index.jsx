@@ -1,7 +1,7 @@
 import React from "react";
 import { Progress } from "antd";
 import sourceData from "../../../../data/sourceData.json";
-import "./index.css";
+import "./index.scss";
 import DetailData from "./infoChart";
 
 const filteredData = sourceData.slice(3, 5);
@@ -29,7 +29,7 @@ export const ProgressChart = () => {
             [onlinePercent + "%"]: "rgba(116, 89, 217, 0.2)",
             [onlinePercent + 1 + "%"]: "rgba(116, 89, 217, 1.8)",
           }}
-          size={[630, 15]}
+          size={["", 15]}
           strokeLinecap="round"
         />
       </div>

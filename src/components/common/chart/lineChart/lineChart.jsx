@@ -2,7 +2,7 @@ import React from "react";
 import { Chart as ChartJS, defaults } from "chart.js/auto";
 import { Line } from "react-chartjs-2";
 import revenueData from "../../../../data/revenueData.json";
-import "./index.css";
+import "./index.scss";
 
 defaults.maintainAspectRatio = false;
 defaults.responsive = true;
@@ -46,7 +46,14 @@ export const LineChart = () => {
               },
             },
             legend: {
-              display: false, 
+              display: false,
+            },
+          },
+          layout: {
+            padding: {
+              left: 50, 
+              right: 0, 
+              top:10
             },
           },
           scales: {

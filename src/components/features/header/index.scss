@@ -3,15 +3,23 @@
   flex-direction: row;
   align-items: center;
   gap: 60px;
-  min-height: 40px;
   overflow: hidden;
+  height: 80px;
+  font-size: 16px;
   .header-text {
     display: flex;
     flex-direction: row;
-    font-size: 16px;
-    line-height: 24px;  
+    // font-size: 16px;
+    line-height: 24px;
     gap: 30px;
     margin-left: 50px;
+  }
+  p {
+    margin: 0;
+    cursor: pointer;
+    &:hover {
+      color: #007bff;
+    }
   }
 }
 .header-account {
@@ -22,14 +30,33 @@
   margin-left: 30px;
   gap: 20px;
   right: 4%;
+  p {
+    margin: 0;
+    cursor: pointer;
+    &:hover {
+      color: #007bff;
+    }
+  }
+
+  svg {
+    cursor: pointer;
+    &:hover {
+      fill: #007bff;
+    }
+  }
 }
+.header-search {
+  display: flex;
+  align-items: center;
+}
+
 .text-size {
-  font-size: 16px;
+  // font-size: 16px;
   line-height: 24px;
   font-weight: 600;
 }
 .divider-horizontal {
-    height: 2px;
-    width: 100%;
-    background-color: #F2F2F7;
-  }
+  height: 2px;
+  width: 100%;
+  background-color: #f2f2f7;
+}

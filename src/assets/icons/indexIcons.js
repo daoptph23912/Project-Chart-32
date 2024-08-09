@@ -22,6 +22,12 @@ import { ReactComponent as IconLich } from "./iconLich.svg";
 import { ReactComponent as IconSocial } from "./iconSocial.svg";
 import { ReactComponent as ImageGGB } from "./imageTongGG.svg";
 import { ReactComponent as ImagePie } from "./imageChartcuoi.svg";
+import { ReactComponent as Menu1 } from "./menu1.svg";
+import { ReactComponent as Menu2 } from "./menu2.svg";
+import { ReactComponent as Menu3 } from "./menu3.svg";
+import { ReactComponent as Menu4 } from "./menu4.svg";
+import { ReactComponent as Menu5 } from "./menu5.svg";
+import { ReactComponent as Menu6 } from "./menu6.svg";
 
 export {
   BgrMsg,
@@ -48,4 +54,10 @@ export {
   IconSocial,
   ImageGGB,
   ImagePie,
+  Menu1,
+  Menu2,
+  Menu3,
+  Menu4,
+  Menu5,
+  Menu6,
 };
