@@ -3,6 +3,11 @@
     display: none !important;
   }
 }
+// @media (max-height: 1000px) {
+//   .header-container {
+//     display: none !important;
+//   }
+// }
 @media (max-width: 650px) {
   .container-chart {
     display: flex;

@@ -7,22 +7,20 @@ import DoughnutChart from "./pieChartFooter";
 export const Footer = () => {
   return (
     <div className="right-main">
-      <div
-        style={{
-          display: "flex",
-          position: "absolute",
-          paddingBottom: "200px",
-        }}
-      >
+      <div style={{ marginLeft: "-45px" }}>
         <TextCham text="Superiority" />
       </div>
+
       <img className="image-lon" src={image1} alt="" />
       <div className="text-icon-social">
         <IconSocial />
         <p>Social Trading Platform</p>
       </div>
       <SocialTradingList />
-      <TextCham text="My Income" />
+      <div style={{ marginLeft: "-45px" }}>
+        <TextCham text="My Income" />
+      </div>
+
       <DoughnutChart percentage={46} legendText="Legend" change={25} />
     </div>
   );

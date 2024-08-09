@@ -31,9 +31,7 @@ export const DashBoard = () => {
             DASHBOARD
           </p>
           <IconText />
-          <p className="click-bitforex">
-            BITFOREX.COM
-          </p>
+          <p className="click-bitforex">BITFOREX.COM</p>
         </div>
 
         <div className="text-main-left-two">
@@ -61,18 +59,20 @@ export const DashBoard = () => {
         <LineChart />
 
         <div className="container-chart">
-          <div className="chart-pie-progress">
+          <div className="chart-pie-wrap">
             <TextCham text="Perpetual" />
             <PieChart />
           </div>
-          <div className="chart-pie-progress">
-            <TextCham text="Active Percentage" />
+          <div className="chart-progress-wrap">
+            <div style={{ marginLeft: "-45px" }}>
+              <TextCham text="Active Percentage" />
+            </div>
             <ProgressChart />
           </div>
         </div>
       </div>
 
-        <Footer />
+      <Footer />
     </div>
   );
 };

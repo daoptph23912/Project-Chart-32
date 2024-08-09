@@ -17,7 +17,7 @@ export const ProgressChart = () => {
     <div className="progressContainer">
       <div className="totalCount">
         <h1>{totalUsers}</h1>
-        <p>users</p>
+        <p className="text-total-line">Total</p>
       </div>
 
       <div className="progressBar">

@@ -19,7 +19,7 @@ const IconMenu = () => {
         <Menu4 className="sidebar-icon" />
         <Menu5 className="sidebar-icon" />
       </div>
-      <div className="menu-msg-icon">
+      <div className="menu-msg-icon-msg">
         <Menu6 className="sidebar-icon" />
       </div>
     </div>

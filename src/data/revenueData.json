@@ -1,5 +1,5 @@
 [
-  { "label": "1", "revenue": 100, "cost": 50 },
+  { "label": "1", "revenue": 150, "cost": 200 },
   { "label": "5", "revenue": 70, "cost": 70 },
   { "label": "10", "revenue": 150, "cost": 30 },
   { "label": "15", "revenue": 200, "cost": 100 },

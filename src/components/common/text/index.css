@@ -1,8 +1,8 @@
 .text-total-visit {
+  max-width: auto;
   font-size: 18px;
   line-height: 28px;
   font-weight: 700;
-  margin-left: 50px;
   color: #11263c;
   font-family: "DINPro", sans-serif;
 }
