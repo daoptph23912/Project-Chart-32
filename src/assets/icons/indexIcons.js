@@ -28,6 +28,7 @@ import { ReactComponent as Menu3 } from "./menu3.svg";
 import { ReactComponent as Menu4 } from "./menu4.svg";
 import { ReactComponent as Menu5 } from "./menu5.svg";
 import { ReactComponent as Menu6 } from "./menu6.svg";
+import { ReactComponent as IconLichbe } from "./iconLichbe.svg";
 
 export {
   BgrMsg,
@@ -60,4 +61,5 @@ export {
   Menu4,
   Menu5,
   Menu6,
+  IconLichbe,
 };

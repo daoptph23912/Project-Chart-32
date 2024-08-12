@@ -63,9 +63,9 @@ export const LineChart = () => {
           },
           layout: {
             padding: {
-              left: 50,
-              right: 0,
-              top: 20,
+              left: 30,
+              // right: 20,
+              // top: 20,
             },
           },
           scales: {
@@ -76,6 +76,7 @@ export const LineChart = () => {
               },
               ticks: {
                 color: "#9B9B9B",
+                padding: 10,
               },
             },
             y: {
@@ -86,9 +87,11 @@ export const LineChart = () => {
                 },
                 color: "#9B9B9B",
                 maxTicksLimit: 4,
+                padding: 20,
               },
               grid: {
                 color: "#E0E0E0",
+                drawBorder: false,
               },
             },
           },

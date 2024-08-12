@@ -6,8 +6,8 @@
   display: flex;
   min-width: 100px;
   min-height: 100px;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
 }
 .chart-pie-main {
   position: absolute;
@@ -34,6 +34,7 @@
   display: flex;
   flex-direction: column;
   width: 30vh;
+  margin-bottom: 5px;
 }
 
 .infoColor {
@@ -44,19 +45,20 @@
   margin-right: 10px;
 }
 .wrap-label-cham {
-  // padding-bottom: 2px;
+  padding-bottom: 7px;
 }
 .infoLabel {
   flex: 1;
   font-size: 14px;
-  color: #555;
+  color: #d0d1d2;
   font-weight: 400;
   line-height: 22px;
+  margin-left: 10px;
 }
 
 .infoValue {
   font-size: 14px;
   font-weight: 600;
-  margin-left: 50px;
+  margin-left: 60px;
   line-height: 22px;
 }

@@ -15,8 +15,8 @@ export const Header = ({ toggleTheme, theme }) => {
       <div className="header-container">
         <div className="header-text">
           <p className="text-size">Dashboard</p>
-          <p>Advanced Quarry</p>
-          <p>Events</p>
+          <p style={{ color: "rgba(208, 209, 210, 1)" }}>Advanced Quarry</p>
+          <p style={{ color: "rgba(208, 209, 210, 1)" }}>Events</p>
         </div>
 
         <div className="header-search">

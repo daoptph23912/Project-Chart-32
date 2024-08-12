@@ -20,7 +20,12 @@ const DetailData = ({ data }) => {
             />
             <span>{item.label} </span>
           </div>
-          <span style={{ fontWeight: "bold", marginLeft: "50px" }}>
+          <span
+            style={{
+              fontWeight: "bold",
+              marginLeft: "60px",
+            }}
+          >
             {item.value} users
           </span>
         </div>

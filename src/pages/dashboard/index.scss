@@ -46,11 +46,19 @@
   font-family: "Yuanti SC", sans-serif;
   margin-bottom: 10px;
 }
+.icon-cong-cuoi {
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+}
 .text-total-lich {
   display: flex;
   flex-direction: row;
   font-family: "DINPro", sans-serif;
-  color: #d0d1d2;
+  // color: #d0d1d2;
   font-size: 12px;
   font-weight: 500;
   line-height: 20px;
@@ -77,7 +85,7 @@
   min-width: 300px;
   display: flex;
   flex-direction: column;
-  background-color: #f2f2f7;
+  // background-color: #f2f2f7;
   padding: 0px 40px 10px 40px;
   height: 100vh;
   // align-items: center;
@@ -113,7 +121,6 @@
   font-size: 14px;
   line-height: 22px;
   font-weight: 400;
-  color: #422f8ade;
   font-family: "Poppins", sans-serif;
 }
 .text-active-per {
@@ -143,7 +150,7 @@
   font-size: 12px;
   line-height: 20px;
   font-family: "DINPro", sans-serif;
-  color: #11263c;
+  // color: #11263c;
   font-weight: 700;
   cursor: pointer;
   &:hover {

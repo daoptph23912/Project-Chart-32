@@ -2,6 +2,7 @@ import {
   IconBaCham,
   IconCong,
   IconLich,
+  IconLichbe,
   IconText,
   WubinDesign,
 } from "../../assets/icons/indexIcons";
@@ -37,19 +38,44 @@ export const DashBoard = () => {
         <div className="text-main-left-two">
           <WubinDesign />
           <p>wubin.design</p>
-          <IconCong onClick={handleToggleElements} className="clickable-icon" />
+          <div className="icon-cong-cuoi">
+            <IconCong
+              onClick={handleToggleElements}
+              className="clickable-icon"
+            />
+          </div>
         </div>
 
         <div className="text-total-lich">
           <TextCham text="Total visits" />
           <div className="text-main-left-three">
             <p className="color-lich"></p>
-            <p> Provisions Month</p>
-            <IconLich
+            <p style={{ color: "#d0d1d2" }}> Provisions Month</p>
+            <div
+              style={{
+                display: "flex",
+                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+                alignItems: "center",
+                gap: "5px",
+              }}
+            >
+              <p
+                style={{
+                  fontSize: "14px",
+                  lineHeight: "22px",
+                  fontWeight: "400",
+                }}
+                onClick={handleToggleDatePicker}
+              >
+                March 2020
+              </p>
+              <IconLichbe />
+            </div>
+            {/* <IconLich
               onClick={handleToggleDatePicker}
               className="clickable-icon"
             />
-            {showDatePicker && <DatePicker className="date-picker" />}{" "}
+            {showDatePicker && <DatePicker className="date-picker" />}{" "} */}
             <IconBaCham
               onClick={handleToggleElements}
               className="clickable-icon"
