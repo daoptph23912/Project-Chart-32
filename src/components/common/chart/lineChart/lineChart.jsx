@@ -29,8 +29,8 @@ export const LineChart = () => {
             {
               label: "Cost",
               data: revenueData.map((data) => data.cost),
-              borderColor: "#E1D9EE",
-              pointBackgroundColor: "#E1D9EE",
+              borderColor: "#ECE9F1",
+              pointBackgroundColor: "#3D3C41",
               pointHoverBorderColor: "white",
               pointHoverBorderWidth: 2,
               pointHoverRadius: 5,
@@ -44,7 +44,7 @@ export const LineChart = () => {
           plugins: {
             tooltip: {
               mode: "index",
-              intersect: false,
+              intersect: true,
               callbacks: {
                 label: function (tooltipItem) {
                   return (
@@ -72,7 +72,7 @@ export const LineChart = () => {
               },
               ticks: {
                 color: "#9B9B9B",
-                // padding: 10,
+                padding: 15,
                 maxTicksLimit: 7,
                 callback: function (value, index, values) {
                   const label = revenueData[index].label;
@@ -88,11 +88,11 @@ export const LineChart = () => {
               beginAtZero: true,
               ticks: {
                 callback: function (value) {
-                  return value.toLocaleString() + "M";
+                  return value.toLocaleString() + "M      ";
                 },
                 color: "#9B9B9B",
                 maxTicksLimit: 4,
-                // padding: 20,
+                // padding: 10,
               },
               grid: {
                 color: "#ECE9F1",
