@@ -30,7 +30,7 @@ const DoughnutChart = ({ percentage, legendText, change }) => {
         <div className="chart-percentage">{`${percentage}%`}</div>
       </div>
       <div className="text-chart-footer">
-        <p className="text-legend" style={{ fontSize: "16px" }}>
+        <p className="text-legend" style={{ fontSize: "12.31px" }}>
           {legendText}
         </p>
         <p className="text-chart">{`+${change}%`}</p>

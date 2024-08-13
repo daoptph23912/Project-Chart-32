@@ -9,7 +9,7 @@
 .text-main-left-total {
   display: flex;
   flex-direction: row;
-  gap: 20px;
+  gap: 10px;
   align-items: center;
 }
 .tooltip-icon {

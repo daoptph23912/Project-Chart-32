@@ -14,8 +14,8 @@ const DetailData = ({ data }) => {
               style={{
                 backgroundColor:
                   item.label === "Online"
-                    ? getRgbaColor(0.2)
-                    : getRgbaColor(1.8),
+                    ? getRgbaColor(20)
+                    : getRgbaColor(0.2),
               }}
             />
             <span>{item.label} </span>
@@ -24,6 +24,7 @@ const DetailData = ({ data }) => {
             style={{
               fontWeight: "bold",
               marginLeft: "60px",
+              fontSize:'14px'
             }}
           >
             {item.value} users

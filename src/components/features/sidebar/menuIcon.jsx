@@ -12,6 +12,7 @@ import {
 const IconMenu = () => {
   return (
     <div className="container-icon-menu">
+      <hr className="way-frame-x" />
       <div className="menu-msg-icon">
         <Menu1 className="sidebar-icon" />
         <Menu2 className="sidebar-icon" />
@@ -19,6 +20,7 @@ const IconMenu = () => {
         <Menu4 className="sidebar-icon" />
         <Menu5 className="sidebar-icon" />
       </div>
+      <hr className="way-frame-y"  />
       <div className="menu-msg-icon-msg">
         <Menu6 className="sidebar-icon" />
       </div>

@@ -20,6 +20,7 @@ export const Sidebar = () => {
     <>
       <div className={`sidebar-container ${collapsed ? "collapsed" : ""}`}>
         <Menu />
+        <hr className="way-frame-x"/>
         {/* <MenuOutlined className="menu-icon" onClick={toggleSidebar} /> */}
         {!collapsed && (
           <>

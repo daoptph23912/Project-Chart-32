@@ -44,6 +44,20 @@
 
   --text-icon-social-text-color: #422f8ade;
   --clickable-icon-text-color: #422f8ade;
+
+  --total-users-text-color: #000000;
+
+  --text-legend-text-color: #3c3c4399;
+  --text-chart-text-color: #422f8ade;
+  --text-status-text-color: #d0d1d2;
+  --provison-month-text-color: #d0d1d2;
+  --totalCount-text-color: #d0d1d2;
+  --infoLabel-text-color: #d0d1d2;
+  --text-dashboard-header-text-color: #d0d1d2;
+  --click-bitforex-text-color: #d0d1d2;
+  --item-category-text-color: #d0d1d2;
+  --color-lich-background-color: #ece9f1;
+  --way-frame-background-color: #f6f3fb;
 }
 .main-layout.dark {
   --background-color: #2c2c2e;
@@ -66,12 +80,26 @@
   --menu-msg-icon-background-color: #3a3a3c;
   --menu-msg-icon-msg-background-color: #3a3a3c;
   --icon-cong-cuoi-background-color: #3a3a3c;
-  --text-icon-social-text-color: #422f8ade;
+  --text-icon-social-text-color: #5e5ce6;
 
   --social-trading-list-background-color: #2c2c2e;
   --container-pie-Chart-footer-background-color: #2c2c2e;
 
   --clickable-icon-text-color: #ffffff;
+
+  --total-users-text-color: #ffffff;
+
+  --text-legend-text-color: white;
+  --text-chart-text-color: #5e5ce6;
+  --text-status-text-color: #ebebf54d;
+  --provison-month-text-color: #ebebf54d;
+  --totalCount-text-color: #ebebf54d;
+  --infoLabel-text-color: #ebebf54d;
+  --text-dashboard-header-text-color: #ebebf54d;
+  --click-bitforex-text-color: #ebebf54d;
+  --item-category-text-color: #ebebf54d;
+  --color-lich-background-color: #3d3c41;
+  --way-frame-background-color: #ebebf54d;
 }
 .left-main {
   background-color: var(--left-main-bg-color);
@@ -108,4 +136,46 @@
 }
 .clickable-icon {
   color: var(--clickable-icon-text-color);
+}
+.total-users-text {
+  color: var(--total-users-text-color);
+}
+.text-legend {
+  color: var(--text-legend-text-color);
+}
+.text-chart {
+  color: var(--text-chart-text-color);
+}
+.text-status {
+  color: var(--text-status-text-color);
+}
+.provison-month {
+  color: var(--provison-month-text-color);
+}
+.text-total-line {
+  color: var(--totalCount-text-color);
+}
+.infoLabel {
+  color: var(--infoLabel-text-color);
+}
+.text-dashboard-header {
+  color: var(--text-dashboard-header-text-color);
+}
+.click-bitforex {
+  color: var(--click-bitforex-text-color);
+}
+.item-category {
+  color: var(--item-category-text-color);
+}
+.color-lich {
+  background-color: var(--color-lich-background-color);
+}
+.way-frame {
+  background-color: var(--way-frame-background-color);
+}
+.way-frame-x {
+  background-color: var(--way-frame-background-color);
+}
+.way-frame-y {
+  background-color: var(--way-frame-background-color);
 }

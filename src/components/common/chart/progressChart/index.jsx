@@ -7,6 +7,8 @@ import DetailData from "./infoChart";
 const filteredData = sourceData.slice(3, 5);
 const totalUsers = filteredData.reduce((sum, data) => sum + data.value, 0);
 
+const getRgbaColor = (opacity) => `rgba(116, 89, 217, ${opacity})`;
+
 export const ProgressChart = () => {
   const onlineUsers = filteredData.find(
     (data) => data.label === "Online"
@@ -16,7 +18,15 @@ export const ProgressChart = () => {
   return (
     <div className="progressContainer">
       <div className="totalCount">
-        <h1>{totalUsers}</h1>
+        <p
+          style={{
+            fontSize: "30px",
+            fontWeight: 700,
+            lineHeight: "46px",
+          }}
+        >
+          {totalUsers}
+        </p>
         <p className="text-total-line">Total</p>
       </div>
 
@@ -25,9 +35,9 @@ export const ProgressChart = () => {
           percent={100}
           showInfo={false}
           strokeColor={{
-            "0%": "rgba(116, 89, 217, 0.2)",
-            [onlinePercent + "%"]: "rgba(116, 89, 217, 0.2)",
-            [onlinePercent + 1 + "%"]: "rgba(116, 89, 217, 1.8)",
+            "0%": getRgbaColor(1.8),
+            [onlinePercent + "%"]: getRgbaColor(1.8),
+            [onlinePercent + 1 + "%"]: getRgbaColor(0.2),
           }}
           size={["", 15]}
           strokeLinecap="round"

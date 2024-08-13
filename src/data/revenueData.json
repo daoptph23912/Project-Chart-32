@@ -1,10 +1,15 @@
 [
   { "label": "1", "revenue": 150, "cost": 200 },
-  { "label": "5", "revenue": 70, "cost": 70 },
-  { "label": "10", "revenue": 150, "cost": 30 },
-  { "label": "15", "revenue": 200, "cost": 100 },
+  { "label": "4", "revenue": 10, "cost": 200 },
+  { "label": "5", "revenue": 70, "cost": 300 },
+  { "label": "11", "revenue": 10, "cost": 200 },
+  { "label": "10", "revenue": 60, "cost": 300 },
+  { "label": "14", "revenue": 30, "cost": 200 },
+  { "label": "15", "revenue": 200, "cost": 200 },
   { "label": "20", "revenue": 250, "cost": 150 },
+  { "label": "20", "revenue": 250, "cost": 150 },
+  { "label": "21", "revenue": 150, "cost": 10 },
   { "label": "25", "revenue": 200, "cost": 130 },
+  { "label": "22", "revenue": 300, "cost": 100 },
   { "label": "30", "revenue": 50, "cost": 190 }
 ]
-  

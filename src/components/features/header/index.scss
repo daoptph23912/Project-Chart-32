@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 60px;
+  // gap: 60px;
   overflow: hidden;
   height: 80px;
   font-size: 16px;
@@ -12,14 +12,14 @@
     font-size: 16px;
     // color: rgba(208, 209, 210, 1);
     line-height: 24px;
-    gap: 50px;
-    margin-left: 50px;
+    gap: 40px;
+    margin-left: 34px;
   }
   p {
     margin: 0;
     cursor: pointer;
     &:hover {
-      color: #007bff;
+      color: rgb(2, 3, 4);
     }
   }
 }
@@ -30,28 +30,91 @@
   position: absolute;
   margin-left: 30px;
   gap: 20px;
-  right: 4%;
+  right: 3%;
   p {
     margin: 0;
     cursor: pointer;
     &:hover {
-      color: #007bff;
+      color: rgb(14, 17, 20);
     }
   }
 
   svg {
     cursor: pointer;
     &:hover {
-      fill: #007bff;
+      fill: rgb(11, 14, 17);
     }
   }
 }
 .header-search {
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 40px;
 }
-
+.way-frame {
+  // width: 2px;
+  // height: 40px;
+  // border-radius: 18px;
+  // margin-left: 40px;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(238, 236, 250, 0) 0%,
+  //   #f9f9f9 51.44%,
+  //   rgba(238, 236, 250, 0) 100%
+  // );
+  width: 2px;
+  border: 18px;
+  height: 40px;
+  transform: rotate(180deg);
+  // background-color: #f6f3fb;
+  border-radius: 100px;
+  margin-left: 40px;
+}
+.way-frame-x {
+  // height: 2px;
+  // width: 40px;
+  // border-radius: 18px;
+  // margin-top: 34px;
+  // background-color: #f9f9f9;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(238, 236, 250, 0) 0%,
+  //   #f9f9f9 51.44%,
+  //   rgba(238, 236, 250, 0) 100%
+  // );
+  width: 40px;
+  border: 18px;
+  height: 2px;
+  transform: rotate(180deg);
+  // background-color: #f6f3fb;
+  border-radius: 100px;
+  margin-top: 34px;
+}
+.way-frame-y {
+  // height: 2px;
+  // width: 40px;
+  // border-radius: 18px;
+  // position: absolute;
+  // align-items: center;
+  // bottom: 94px;
+  // background-color: #f9f9f9;
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(238, 236, 250, 0) 0%,
+  //   #f9f9f9 51.44%,
+  //   rgba(238, 236, 250, 0) 100%
+  // );
+  width: 40px;
+  border: 18px;
+  height: 2px;
+  position: absolute;
+  bottom: 94px;
+  align-items: center;
+  transform: rotate(180deg);
+  // background-color: #f6f3fb;
+  border-radius: 100px;
+  margin-top: 34px;
+}
 .text-size {
   font-size: 16px;
   line-height: 24px;
@@ -69,4 +132,10 @@
 .divider-horizontal {
   height: 2px;
   width: 100%;
+}
+.text-dashboard-header {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "Poppins", sans-serif;
 }

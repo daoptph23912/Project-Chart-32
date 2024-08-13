@@ -15,10 +15,10 @@ export const Header = ({ toggleTheme, theme }) => {
       <div className="header-container">
         <div className="header-text">
           <p className="text-size">Dashboard</p>
-          <p style={{ color: "rgba(208, 209, 210, 1)" }}>Advanced Quarry</p>
-          <p style={{ color: "rgba(208, 209, 210, 1)" }}>Events</p>
+          <p className="text-dashboard-header">Advanced Quarry</p>
+          <p className="text-dashboard-header">Events</p>
         </div>
-
+        <hr className="way-frame" />
         <div className="header-search">
           <IconSearch />
           {/* <Search className="icon-search" placeholder="Search..." /> */}
@@ -27,7 +27,7 @@ export const Header = ({ toggleTheme, theme }) => {
         <div className="header-account">
           <p className="text-size-bessie">Bessie Cooper</p>
           <LogoAcc />
-          <IconDrd />
+          <IconDrd style={{ marginLeft: "-5px", marginRight: "10px" }} />
           {theme === "light" ? (
             <ModeLight onClick={toggleTheme} />
           ) : (

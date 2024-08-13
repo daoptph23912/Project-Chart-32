@@ -24,20 +24,18 @@ export const LineChart = () => {
               pointHoverRadius: 5,
               tension: 0.4,
               fill: false,
-              // backgroundColor: "rgba(66, 47, 138, 0.1)",
               backgroundColor: "transparent",
             },
             {
               label: "Cost",
               data: revenueData.map((data) => data.cost),
-              borderColor: "#C1B0DF",
-              pointBackgroundColor: "#C1B0DF",
+              borderColor: "#E1D9EE",
+              pointBackgroundColor: "#E1D9EE",
               pointHoverBorderColor: "white",
               pointHoverBorderWidth: 2,
               pointHoverRadius: 5,
               tension: 0.4,
               fill: false,
-              // backgroundColor: "rgba(193, 176, 223, 0.1)",
               backgroundColor: "transparent",
             },
           ],
@@ -63,9 +61,7 @@ export const LineChart = () => {
           },
           layout: {
             padding: {
-              left: 30,
-              // right: 20,
-              // top: 20,
+              // left: 30,
             },
           },
           scales: {
@@ -76,7 +72,16 @@ export const LineChart = () => {
               },
               ticks: {
                 color: "#9B9B9B",
-                padding: 10,
+                // padding: 10,
+                maxTicksLimit: 7,
+                callback: function (value, index, values) {
+                  const label = revenueData[index].label;
+                  return ["1", "5", "10", "15", "20", "25", "30"].includes(
+                    label
+                  )
+                    ? label
+                    : "";
+                },
               },
             },
             y: {
@@ -87,11 +92,13 @@ export const LineChart = () => {
                 },
                 color: "#9B9B9B",
                 maxTicksLimit: 4,
-                padding: 20,
+                // padding: 20,
               },
               grid: {
-                color: "#E0E0E0",
+                color: "#ECE9F1",
                 drawBorder: false,
+                borderDash: [0],
+                drawTicks: false,
               },
             },
           },
@@ -101,12 +108,12 @@ export const LineChart = () => {
           },
           elements: {
             point: {
-              radius: 5,
+              radius: 0,
               hoverRadius: 7,
               hoverBorderWidth: 3,
             },
             line: {
-              borderWidth: 2,
+              borderWidth: 5,
             },
           },
         }}

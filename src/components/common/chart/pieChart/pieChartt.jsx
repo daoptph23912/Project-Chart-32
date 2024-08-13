@@ -56,45 +56,20 @@ export const PieChart = () => {
                 display: false,
               },
             },
-            layout: {
-              padding: {
-                left: 50,
-                right: 0,
-                top: 10,
-              },
-            },
+            maintainAspectRatio: false,
+            // layout: {
+            //   padding: {
+            //     left: 50,
+            //     right: 0,
+            //     top: 10,
+            //   },
+            // },
           }}
-          plugins={[
-            {
-              beforeDraw: function (chart) {
-                const width = chart.width;
-                const height = chart.height;
-                const ctx = chart.ctx;
-                ctx.restore();
-                const fontSize = (height / 150).toFixed(2);
-                ctx.font = `${fontSize}em sans-serif`;
-                ctx.textBaseline = "middle";
-
-                const text = totalUsers.toLocaleString();
-
-                const marginLeft = 25;
-                const textX = Math.round(
-                  (width - ctx.measureText(text).width) / 2 + marginLeft
-                );
-                const textY = height / 2;
-                const marginTop = 10;
-
-                ctx.fillText(text, textX, textY - 10 + marginTop);
-
-                ctx.font = `${(fontSize * 0.6).toFixed(2)}em sans-serif`;
-                ctx.fillStyle = "#9B9B9B";
-
-                ctx.fillText("Label", textX, textY + 15 + marginTop);
-                ctx.save();
-              },
-            },
-          ]}
         />
+        <div className="chart-total-users">
+          {totalUsers.toLocaleString()}
+          <p className="text-total-line">Label</p>
+        </div>
       </div>
       <ChartInfo data={doughnutData} />
     </div>

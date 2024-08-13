@@ -18,11 +18,14 @@
 @import "../assets/styles/theme.scss";
 .main-layout {
   display: flex;
+  // width: 110%;
+  // height: 110%;
 }
 .sidebar {
   max-width: 80px;
   height: 100%;
   display: none;
+  margin-right: 2px;
 }
 .wrap-container {
   display: flex;
@@ -33,6 +36,7 @@
 
 .header {
   max-width: 100%;
+  margin-bottom: 2px;
 }
 
 .main {

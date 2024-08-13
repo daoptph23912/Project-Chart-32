@@ -7,7 +7,7 @@ import DoughnutChart from "./pieChartFooter";
 export const Footer = () => {
   return (
     <div className="right-main">
-      <div style={{ marginLeft: "-45px" }}>
+      <div style={{ marginLeft: "0px",marginBottom:'12px' }}>
         <TextCham text="Superiority" />
       </div>
 
@@ -17,7 +17,7 @@ export const Footer = () => {
         <p>Social Trading Platform</p>
       </div>
       <SocialTradingList />
-      <div style={{ marginLeft: "-45px" }}>
+      <div style={{ marginLeft: "0px" }}>
         <TextCham text="My Income" />
       </div>
 

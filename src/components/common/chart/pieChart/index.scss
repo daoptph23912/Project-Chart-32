@@ -1,29 +1,33 @@
 .pieChart-info {
   display: flex;
-  flex-direction: row;
+  margin-top: 22px;
 }
 .pieCard {
+  width: 200px;
+  height: 200px;
+  position: relative;
   display: flex;
-  min-width: 100px;
-  min-height: 100px;
-  width: 250px;
-  height: 250px;
+  align-items: center;
+  justify-content: center;
 }
-.chart-pie-main {
+.chart-total-users {
   position: absolute;
+  font-size: 30px;
+  text-align: center;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 13px;
-  font-weight: bold;
+  font-weight: 700;
+  line-height: 46px;
+  font-family: 'Poppins', sans-serif;
 }
 .chartInfo {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 50px;
+  margin-left: 34px;
   gap: 14px;
-  margin-top: 10px;
+  // margin-top: 0px 0px 0px 20px;
 }
 
 .infoList {
@@ -33,15 +37,15 @@
 .infoItem {
   display: flex;
   flex-direction: column;
-  width: 30vh;
-  margin-bottom: 5px;
+  // width: 30vh;
+  margin-bottom: 12px;
 }
 
 .infoColor {
   display: inline-block;
   width: 40px;
   height: 5px;
-  border-radius: 20%;
+  border-radius: 100px;
   margin-right: 10px;
 }
 .wrap-label-cham {
@@ -50,7 +54,7 @@
 .infoLabel {
   flex: 1;
   font-size: 14px;
-  color: #d0d1d2;
+  // color: #d0d1d2;
   font-weight: 400;
   line-height: 22px;
   margin-left: 10px;
@@ -61,4 +65,11 @@
   font-weight: 600;
   margin-left: 60px;
   line-height: 22px;
+}
+.total-users-text {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 46px;
+  // font: 700 28px sans-serif;
+  // fill: #000000;
 }

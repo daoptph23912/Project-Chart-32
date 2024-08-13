@@ -50,11 +50,22 @@ export const DashBoard = () => {
           <TextCham text="Total visits" />
           <div className="text-main-left-three">
             <p className="color-lich"></p>
-            <p style={{ color: "#d0d1d2" }}> Provisions Month</p>
+            <p
+              className="provison-month"
+              style={{
+                fontWeight: "500",
+                fontSize: "12px",
+                lineHeight: "20px",
+              }}
+            >
+              {" "}
+              Provisions Month
+            </p>
             <div
+              className="lich-march"
               style={{
                 display: "flex",
-                boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
+                // boxShadow: "0 2px 8px rgba(0, 0, 0, 0.1)",
                 alignItems: "center",
                 gap: "5px",
               }}
@@ -76,10 +87,16 @@ export const DashBoard = () => {
               className="clickable-icon"
             />
             {showDatePicker && <DatePicker className="date-picker" />}{" "} */}
-            <IconBaCham
-              onClick={handleToggleElements}
-              className="clickable-icon"
-            />
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                gap: "5px",
+              }}
+              className="clickable-icon11"
+            >
+              <IconBaCham onClick={handleToggleElements} />
+            </div>
           </div>
         </div>
         <LineChart />
@@ -90,7 +107,7 @@ export const DashBoard = () => {
             <PieChart />
           </div>
           <div className="chart-progress-wrap">
-            <div style={{ marginLeft: "-45px" }}>
+            <div>
               <TextCham text="Active Percentage" />
             </div>
             <ProgressChart />
