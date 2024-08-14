@@ -27,7 +27,7 @@ export const Header = ({ toggleTheme, theme }) => {
         <div className="header-account">
           <p className="text-size-bessie">Bessie Cooper</p>
           <LogoAcc />
-          <IconDrd style={{ marginLeft: "-5px", marginRight: "10px" }} />
+          <IconDrd className="icon-dropdown" style={{ marginLeft: "-5px", marginRight: "10px" }} />
           {theme === "light" ? (
             <ModeLight onClick={toggleTheme} />
           ) : (

@@ -51,17 +51,17 @@
   align-items: center;
   margin-left: 40px;
 }
+.header-text .text-size::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 80px;
+  width: 30px;
+  left: 140px;
+  height: 2px;
+}
+
 .way-frame {
-  // width: 2px;
-  // height: 40px;
-  // border-radius: 18px;
-  // margin-left: 40px;
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(238, 236, 250, 0) 0%,
-  //   #f9f9f9 51.44%,
-  //   rgba(238, 236, 250, 0) 100%
-  // );
   width: 2px;
   border: 18px;
   height: 40px;
@@ -71,7 +71,6 @@
   margin-left: 40px;
 }
 .way-frame-x {
-
   width: 40px;
   border: 18px;
   height: 2px;
@@ -81,24 +80,22 @@
   margin-top: 34px;
 }
 .way-frame-xx {
-
-  width: 210px;
+  width: 170px;
   border: 18px;
-  height: 2px;
+  height: 1px;
   transform: rotate(180deg);
-  background-color: #f6f3fb;
+  // background-color: #f6f3fb;
   border-radius: 100px;
   margin-top: 34px;
   position: absolute;
   margin-top: 50px;
-  right: 1px;
+  right: 40px;
 }
 .social-trading-list .social-trading-item:last-child .way-frame-xx {
   display: none;
 }
 
 .way-frame-y {
-
   width: 40px;
   border: 18px;
   height: 2px;
