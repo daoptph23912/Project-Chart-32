@@ -1,11 +1,13 @@
 .social-trading-list {
   border-radius: 20px;
-  padding: 10px;
+  padding: 18px 15px 15px 12px;
   width: 250px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   margin-top: 10px;
   margin-bottom: 40px;
   font-family: "Poppins", sans-serif;
+  height:275px;
+  align-items: center;
 }
 
 .social-trading-item {
@@ -19,7 +21,7 @@
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  transition: transform 0.3s ease;
+  // transition: transform 0.3s ease;
 
   svg {
     width: 100%;
@@ -27,7 +29,7 @@
   }
   cursor: pointer;
   &:hover {
-    transform: scale(1.2);
+    transform: scale(1.0);
   }
 }
 

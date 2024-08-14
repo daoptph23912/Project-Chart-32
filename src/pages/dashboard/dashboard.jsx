@@ -41,7 +41,7 @@ export const DashBoard = () => {
           <div className="icon-cong-cuoi">
             <IconCong
               onClick={handleToggleElements}
-              className="clickable-icon"
+              className="clickable-icon-cong"
             />
           </div>
         </div>

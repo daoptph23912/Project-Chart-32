@@ -36,7 +36,10 @@
   --divider-bg-color: #f2f2f7;
 
   --menu-msg-icon-background-color: #f8f9fd;
+
   --menu-msg-icon-msg-background-color: #f8f9fd;
+  --menu-msg-icon-msg-fill: rgba(66, 47, 138, 0.87);
+  --menu-msg-icon-stroke: rgba(66, 47, 138, 0.87);
   --icon-cong-cuoi-background-color: #f8f9fd;
 
   --social-trading-list-background-color: #ffffff;
@@ -45,8 +48,7 @@
   --text-chart-footer-background-color: #ffffff;
 
   --text-icon-social-text-color: #422f8ade;
-  --clickable-icon-text-color: #422f8ade;
-
+  --clickable-icon-text-color: #321d7dde;
   --total-users-text-color: #000000;
 
   --text-legend-text-color: #3c3c4399;
@@ -60,6 +62,7 @@
   --item-category-text-color: #d0d1d2;
   --color-lich-background-color: #ece9f1;
   --way-frame-background-color: #f6f3fb;
+  --tooltip-icon-background-color: rgba(208, 209, 210, 1);
 }
 .main-layout.dark {
   --background-color: #2c2c2e;
@@ -81,6 +84,9 @@
 
   --menu-msg-icon-background-color: #3a3a3c;
   --menu-msg-icon-msg-background-color: #3a3a3c;
+
+  --menu-msg-icon-msg-fill: rgba(232, 230, 240, 0.87);
+  --menu-msg-icon-stroke: rgba(232, 230, 240, 0.87);
   --icon-cong-cuoi-background-color: #3a3a3c;
   --text-icon-social-text-color: #5e5ce6;
 
@@ -90,7 +96,6 @@
   --text-chart-footer-background-color: #2c2c2e;
 
   --clickable-icon-text-color: #ffffff;
-
   --total-users-text-color: #ffffff;
 
   --text-legend-text-color: white;
@@ -103,7 +108,8 @@
   --click-bitforex-text-color: #ebebf54d;
   --item-category-text-color: #ebebf54d;
   --color-lich-background-color: #3d3c41;
-  --way-frame-background-color: #ebebf54d;
+  --way-frame-background-color: #3e3d3d;
+  --tooltip-icon-background-color: #ebebf54d;
 }
 .left-main {
   background-color: var(--left-main-bg-color);
@@ -126,6 +132,12 @@
 .menu-msg-icon-msg {
   background-color: var(--menu-msg-icon-msg-background-color);
 }
+.menu-msg-icon-msg {
+  stroke: var(--menu-msg-icon-msg-fill);
+}
+.menu-msg-icon {
+  stroke: var(--menu-msg-icon-stroke);
+}
 .social-trading-list {
   background-color: var(--social-trading-list-background-color);
 }
@@ -144,8 +156,8 @@
 .text-icon-social {
   color: var(--text-icon-social-text-color);
 }
-.clickable-icon {
-  color: var(--clickable-icon-text-color);
+.clickable-icon-cong {
+  fill: var(--clickable-icon-text-color);
 }
 .total-users-text {
   color: var(--total-users-text-color);
@@ -188,4 +200,7 @@
 }
 .way-frame-y {
   background-color: var(--way-frame-background-color);
+}
+.tooltip-icon {
+  fill: var(--tooltip-icon-background-color);
 }

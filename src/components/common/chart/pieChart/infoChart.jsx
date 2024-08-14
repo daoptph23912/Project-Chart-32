@@ -1,5 +1,5 @@
 import React from "react";
-import "./index.scss"; // Import CSS nếu cần
+import "./index.scss";
 
 const ChartInfo = ({ data }) => {
   return (
@@ -15,9 +15,7 @@ const ChartInfo = ({ data }) => {
             ></span>
             <span className="infoLabel">{item.label}</span>
           </div>
-          <span className="infoValue">
-            {item.value.toLocaleString()} users
-          </span>
+          <span className="infoValue">{item.value.toLocaleString()} users</span>
         </div>
       ))}
     </div>

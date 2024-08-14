@@ -109,7 +109,7 @@ export const LineChart = () => {
             },
           },
           interaction: {
-            mode: "index",
+            mode: "nearest",
             intersect: false,
           },
           elements: {

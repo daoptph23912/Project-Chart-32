@@ -23,6 +23,7 @@ const SocialTradingList = () => {
           <div className="item-content">
             <span className="item-category">Stock trading</span>
             <span className="item-name">{item.name}</span>
+            <hr className="way-frame-xx" />
           </div>
         </div>
       ))}
