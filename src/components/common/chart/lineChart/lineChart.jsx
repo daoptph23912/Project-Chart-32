@@ -74,6 +74,9 @@ export const LineChart = () => {
                 color: "#9B9B9B",
                 padding: 15,
                 maxTicksLimit: 7,
+                font: {
+                  size: 14,
+                },
                 callback: function (value, index, values) {
                   const label = revenueData[index].label;
                   return ["1", "5", "10", "15", "20", "25", "30"].includes(
@@ -93,6 +96,9 @@ export const LineChart = () => {
                 color: "#9B9B9B",
                 maxTicksLimit: 4,
                 // padding: 10,
+                font: {
+                  size: 14,
+                },
               },
               grid: {
                 color: "#ECE9F1",

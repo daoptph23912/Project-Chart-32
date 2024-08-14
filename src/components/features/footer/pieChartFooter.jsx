@@ -10,6 +10,7 @@ const DoughnutChart = ({ percentage, legendText, change }) => {
         backgroundColor: ["rgba(116, 89, 217, 0.8)", "#eaeaea"],
         borderWidth: 0,
         cutout: "80%",
+        borderRadius: 20,
       },
     ],
   };
