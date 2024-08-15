@@ -1,7 +1,7 @@
 import React from "react";
 import { Tooltip } from "antd";
 import { ChamThan } from "../../../assets/icons/indexIcons";
-import "./index.css";
+import "./index.scss";
 
 export const TextCham = ({ text }) => {
   return (

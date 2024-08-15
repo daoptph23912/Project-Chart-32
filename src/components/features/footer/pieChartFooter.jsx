@@ -2,6 +2,7 @@ import React from "react";
 import { Doughnut } from "react-chartjs-2";
 import "chart.js/auto";
 import "./pieChartFooter.scss";
+
 const DoughnutChart = ({ percentage, legendText, change }) => {
   const data = {
     datasets: [
@@ -27,10 +28,7 @@ const DoughnutChart = ({ percentage, legendText, change }) => {
   return (
     <div className="container-pie-Chart-footer">
       <div className="pie-Chart">
-        <div className="pieeeee">
-
-        <Doughnut data={data} options={options} />
-        </div>
+        <Doughnut data={data} options={options} width={60} height={60} />
         <div className="chart-percentage">{`${percentage}%`}</div>
       </div>
       <div className="text-chart-footer">
