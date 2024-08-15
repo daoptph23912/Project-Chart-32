@@ -13,7 +13,7 @@ export const Footer = () => {
 
       <img className="image-lon" src={image1} alt="" />
       <div className="text-icon-social">
-        <IconSocial />
+        <IconSocial className="icon-social"/>
         <p>Social Trading Platform</p>
       </div>
       <SocialTradingList />

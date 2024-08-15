@@ -2,6 +2,9 @@ import React from "react";
 import "./index.scss";
 
 const ChartInfo = ({ data }) => {
+  const getRgbaColor = (opacity) => {
+    return `rgba(116, 89, 217, ${opacity})`;
+  };
   return (
     <div className="chartInfo">
       {data.map((item, index) => (
@@ -10,7 +13,7 @@ const ChartInfo = ({ data }) => {
             <span
               className="infoColor"
               style={{
-                backgroundColor: `rgba(116, 89, 217, ${0.5 + index * 0.3})`,
+                backgroundColor: getRgbaColor(1 - index * 0.3),
               }}
             ></span>
             <span className="infoLabel">{item.label}</span>

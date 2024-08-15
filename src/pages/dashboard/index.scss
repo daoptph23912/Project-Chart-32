@@ -117,8 +117,8 @@
   height: 174px;
   border-radius: 20px;
   margin-top: 10px;
-  box-shadow: 0px 8px 16px 0px #3232470f;
-  box-shadow: 0px 8px 8px 0px #32324714;
+  box-shadow: 0px 8px 16px 0px rgba(50, 50, 71, 0.06);
+  box-shadow: 0px 8px 8px 0px rgba(50, 50, 71, 0.08);
 }
 .text-icon-social {
   margin-top: 15px;
@@ -165,8 +165,7 @@
   padding: 8px;
   height: 30px;
   border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(236, 233, 241, 1);
   cursor: pointer;
   &:hover {
     fill: #125fac;
@@ -195,6 +194,11 @@
   height: 30px;
   padding: 8px;
   border-radius: 6px;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(236, 233, 241, 1);
+}
+.clickable-icon {
+  font-family: "DINPro", sans-serif;
+  font-weight: 700;
+  line-height: 20px;
+  font-size: 12px;
 }

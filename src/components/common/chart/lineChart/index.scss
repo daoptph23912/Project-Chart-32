@@ -2,3 +2,16 @@
   height: 270px;
   margin-top: 10px;
 }
+/* Tooltip cho nền sáng */
+.light-tooltip {
+  background-color: white !important;
+  color: black !important;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+/* Tooltip cho nền tối */
+.dark-tooltip {
+  background-color: black !important;
+  color: white !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}

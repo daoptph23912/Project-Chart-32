@@ -14,13 +14,15 @@ const IconMenu = () => {
     <div className="container-icon-menu">
       <hr className="way-frame-x" />
       <div className="menu-msg-icon">
-        <Menu1 className="sidebar-icon" />
+        <div className="sidebar-menu1">
+          <Menu1 className="sidebar-icon" />
+        </div>
         <Menu2 className="sidebar-icon" />
         <Menu3 className="sidebar-icon" />
         <Menu4 className="sidebar-icon" />
         <Menu5 className="sidebar-icon" />
       </div>
-      <hr className="way-frame-y"  />
+      <hr className="way-frame-y" />
       <div className="menu-msg-icon-msg">
         <Menu6 className="sidebar-icon" />
       </div>

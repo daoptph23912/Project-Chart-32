@@ -27,7 +27,10 @@ const DoughnutChart = ({ percentage, legendText, change }) => {
   return (
     <div className="container-pie-Chart-footer">
       <div className="pie-Chart">
+        <div className="pieeeee">
+
         <Doughnut data={data} options={options} />
+        </div>
         <div className="chart-percentage">{`${percentage}%`}</div>
       </div>
       <div className="text-chart-footer">

@@ -4,18 +4,24 @@
   border-radius: 20px;
   padding: 5px;
   width: 250px;
+  // height: 80px;
   margin-top: 20px;
+}
+.pieeeee {
+  min-width: 60px;
+  min-height: 60px;
 }
 .pie-Chart {
   position: relative;
   display: flex;
-  width: 80px;
-  height: 80px;
-  border-radius: 25px;
-  padding-bottom: 10px;
+  min-width: 80px;
+  min-height: 80px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  border: 1 solid black;
   margin-left: 15px;
-  // box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
+  padding: 0;
 }
 .text-chart-footer {
   height: 61px;
@@ -29,6 +35,8 @@
   margin-left: -130px;
   padding-left: 140px;
   padding-right: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(50, 50, 71, 0.06);
+  box-shadow: 0px 8px 8px 0px rgba(50, 50, 71, 0.08);
 }
 .chart-percentage {
   position: absolute;
@@ -39,7 +47,6 @@
   font-weight: bold;
   padding-top: 5px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
 }
 .text-chart {
   margin: 0;

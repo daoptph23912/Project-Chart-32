@@ -22,13 +22,13 @@ export const PieChart = () => {
               {
                 data: doughnutData.map((data) => data.value),
                 backgroundColor: [
-                  getRgbaColor(0.5),
                   getRgbaColor(1),
+                  getRgbaColor(0.5),
                   getRgbaColor(0.2),
                 ],
                 borderColor: [
-                  getRgbaColor(0.5),
                   getRgbaColor(1),
+                  getRgbaColor(0.5),
                   getRgbaColor(0.2),
                 ],
                 borderWidth: 2,
@@ -43,12 +43,7 @@ export const PieChart = () => {
               tooltip: {
                 callbacks: {
                   label: function (tooltipItem) {
-                    return (
-                      tooltipItem.label +
-                      ": " +
-                      tooltipItem.raw.toLocaleString() +
-                      " users"
-                    );
+                    return tooltipItem.raw.toLocaleString() + " users";
                   },
                 },
               },
