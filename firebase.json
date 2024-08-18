@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "deploy-chart-61096",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}

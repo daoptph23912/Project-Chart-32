@@ -1,7 +1,7 @@
 {
   "name": "chartjs-bkav",
   "version": "0.1.0",
-  "homepage": "https://github.com/daoptph23912/Project-Chart-32",
+  "homepage": "/",
   "private": true,
   "dependencies": {
     "@ant-design/icons": "^5.4.0",
@@ -12,6 +12,7 @@
     "ajv-keywords": "^5.1.0",
     "antd": "^5.19.4",
     "chart.js": "^4.4.3",
+    "firebase": "^10.13.0",
     "gh-pages": "^6.1.1",
     "react": "^18.3.1",
     "react-chartjs-2": "^5.2.0",
